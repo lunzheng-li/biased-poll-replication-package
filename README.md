@@ -23,7 +23,7 @@ The `codes` folder consists of two parts:
 
 #### descriptive
 1. running `E1.py`, `E2.py` and `E3.py` gives you all the results in **Results** section. However, more work need to be done to reproduce the same figures.
-    - For instance, running `E1.py` creates following figure which is different from Figure 4 in the paper.
+    - For instance, running `E1.py` creates following figure which is different from **Figure 4** in the paper.
         <p align="center">
             <img src="https://user-images.githubusercontent.com/68153897/223376891-d4f4c1c1-d4d1-4869-a612-cf4ea56dd50f.png" width="50%" height="50%"/>
         </p>
@@ -49,7 +49,7 @@ The `codes` folder consists of two parts:
 
 3. run the `win.py`, and it gives you the figures in **Figure 4**.
 
-4. The `E1` produce that result in **Welfare Effects and Individual Behaviour** section and the tables in **Appendix D**
+4. `E1_additional_analysis.py`,`E2_additional_analysis.py` and `E3_additional_analysis.py` produce results in **Welfare Effects and Individual Behaviour** section and the tables in **Appendix D**.
     - Note that code would produce the tables directly, some strightforward calculations and copy&paste work are still needed.
 
 ##### regression
