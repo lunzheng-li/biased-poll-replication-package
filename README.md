@@ -23,19 +23,39 @@ The `codes` folder consists of two parts:
 
 #### descriptive
 1. running `E1.py`, `E2.py` and `E3.py` gives all the results in _"3 Results"_. However, more work need to be done to reproduce the same figures.
-    - for instance, running `E1.py` creates following figure which is different from Figure 4 in the paper.
-    
-      ![Figure_1](https://user-images.githubusercontent.com/68153897/223376891-d4f4c1c1-d4d1-4869-a612-cf4ea56dd50f.png)
+    - For instance, running `E1.py` creates following figure which is different from Figure 4 in the paper.
+        <p align="center">
+            <img src="https://user-images.githubusercontent.com/68153897/223376891-d4f4c1c1-d4d1-4869-a612-cf4ea56dd50f.png" width="50%" height="50%"/>
+        </p>
       
     - Also, after running  `E1.py`, `E2.py` and `E3.py`, you will see the following `.csv` files in your working directory.
-        ![SCR-20230307-g4d](https://user-images.githubusercontent.com/68153897/223382582-d9b44189-e6cd-4418-86ff-a8b208bc2460.png)
+        <p align="center">
+            <img src="https://user-images.githubusercontent.com/68153897/223382582-d9b44189-e6cd-4418-86ff-a8b208bc2460.png" width="50%" height="50%"/>
+        </p>
       
-      They are just the numbers in the figures. For instance, the follwing `E1_win.csv` that is consistent with the bar graph above.
-      
-        ![image](https://user-images.githubusercontent.com/68153897/223389061-7dff6934-95d8-4a07-b4e4-546503158067.png)
+    - The `csv` files just store the numbers in the figures. For instance, the following `E1_win.csv` is consistent with the bar graph above.
+        <p align="center">
+            <img src="https://user-images.githubusercontent.com/68153897/223389061-7dff6934-95d8-4a07-b4e4-546503158067.png" width="20%" height="20%"/>
+        </p>
+        
+2. combine `E1_win.csv`,  `E2_win.csv` and `E3_win.csv`, so you a `win.csv` file looks like following: 
+        <p align="center">
+            <img src="https://user-images.githubusercontent.com/68153897/223532299-7cf1e94b-c49c-469b-a292-af28727160cb.png" width="50%" height="50%"/>
+        </p>
+        - combine all the `_vote`, and you have `` that contains the results of all three expriments
+        - put all the these combine `csv` file in the same directory with the `win.py`
+
+3. run the `win.py`, and it gives you figures in Figure 4.
+
+4. The `E1` produce that result in and the table
+- Note that maully combine simply calcualations and copy paste work need to be done
+
+##### regression
+        
 
 
 
 
-Notes: Sorry that the `python` scripts are all a bit messy. They are code drafts that also produce figures and results that, in the end, do not presented in the final version of the paper. For purpose of replicating the result of final version, we commented out unnecessay code blocks. Should you have any questions, please email me at lunz3706@outlook.com.
+
+Notes: I apologise that the `E1.py`, `E2.py` and `E3.py` scripts are a bit messy. They are code drafts that also produce figures and results that, in the end, do not presented in the final version of the paper. For purpose of replicating the result of final version, we commented out unnecessay code blocks. Should you have any questions, please email me at lunz3706@outlook.com.
 
