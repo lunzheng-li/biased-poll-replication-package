@@ -18,11 +18,11 @@ This folder contains all data from experiment E1, E2 and E3.
 ## `codes`
 
 The `codes` folder consists of two parts:
-- `descriptive`: codes that produce the descriptive results, such as _Figure 4_, _Figure 5_ and results in the _"Welfare Effects and Individual Behaviour"_ section. All codes are `python`.
-- `regression`: codes that produce the regression results in _"Appendix B"_. `python` is used to clean the data and `stata` is for regressions.
+- `descriptive`: codes that produce the descriptive results, such as **Figure 4**, **Figure 5** and results in the **Welfare Effects and Individual Behaviour** section. All codes are `python`.
+- `regression`: codes that produce the regression results in **Appendix B**. `python` is used to clean the data and `stata` is for regressions.
 
 #### descriptive
-1. running `E1.py`, `E2.py` and `E3.py` gives all the results in _"3 Results"_. However, more work need to be done to reproduce the same figures.
+1. running `E1.py`, `E2.py` and `E3.py` gives you all the results in **Results** section. However, more work need to be done to reproduce the same figures.
     - For instance, running `E1.py` creates following figure which is different from Figure 4 in the paper.
         <p align="center">
             <img src="https://user-images.githubusercontent.com/68153897/223376891-d4f4c1c1-d4d1-4869-a612-cf4ea56dd50f.png" width="50%" height="50%"/>
@@ -49,7 +49,7 @@ The `codes` folder consists of two parts:
 
 3. run the `win.py`, and it gives you the figures in **Figure 4**.
 
-4. The `E1` produce that result in _"Welfare Effects and Individual Behaviour"_ section and the tables in _"Appendix D"_
+4. The `E1` produce that result in **Welfare Effects and Individual Behaviour** section and the tables in **Appendix D**
     - Note that code would produce the tables directly, some strightforward calculations and copy&paste work are still needed.
 
 ##### regression
